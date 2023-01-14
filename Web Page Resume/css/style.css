@@ -1,0 +1,623 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-color {
+    color: #1c1c1c;
+}
+
+.main-bg-color {
+    background-color: #1c1c1c;
+}
+
+.fz15 {
+    font-size: 1rem;
+}
+
+.fz18 {
+    font-size: 1.125rem
+}
+
+.fz20 {
+    font-size: 1.25rem;
+}
+
+.fz24 {
+    font-size: 1.5rem;
+}
+
+.fz30 {
+    font-size: 1.875rem;
+}
+
+.fz40 {
+    font-size: 2.5rem;
+}
+
+.fz70 {
+    font-size: 4.375;
+}
+
+
+
+
+
+
+
+/* **************************navbar**************************** */
+
+
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.down-lin2 {
+    width: 0%;
+    height: 2px;
+    background-color: #1c1c1c;
+    opacity: 0;
+    transition: .5s;
+}
+
+.nav-item:hover .down-lin2 {
+    width: 80%;
+    opacity: 1;
+}
+
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* **************************home**************************** */
+
+
+.home {
+    background-image: url(..//img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.main-ads {
+    font-size: 70px;
+}
+
+.main-ads::after {
+    content: "";
+    animation: taxi 7s infinite linear;
+}
+
+@keyframes taxi {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "L|";
+    }
+
+    2% {
+        content: "La|";
+    }
+
+    3% {
+        content: "Lar|";
+    }
+
+    4% {
+        content: "Larr|";
+    }
+
+    5% {
+        content: "Larry|";
+    }
+
+    6% {
+        content: "Larry |";
+    }
+
+    7% {
+        content: "Larry D|";
+    }
+
+    8% {
+        content: "Larry Da|";
+    }
+
+    9% {
+        content: "Larry Dan|";
+    }
+
+    10% {
+        content: "Larry Dani|";
+    }
+
+    11% {
+        content: "Larry Danie|";
+    }
+
+    12% {
+        content: "Larry Daniel|";
+    }
+
+    13% {
+        content: "Larry Daniels|";
+    }
+
+    28% {
+        content: "Larry Daniels|";
+    }
+
+    29% {
+        content: "Larry Daniel|";
+    }
+
+    30% {
+        content: "Larry Danie|";
+    }
+
+    31% {
+        content: "Larry Dani|";
+    }
+
+    32% {
+        content: "Larry Dan|";
+    }
+
+    33% {
+        content: "Larry Da|";
+    }
+
+    34% {
+        content: "Larry D|";
+    }
+
+    35% {
+        content: "Larry |";
+    }
+
+    36% {
+        content: "Larry|";
+    }
+
+    37% {
+        content: "Larr|";
+    }
+
+    38% {
+        content: "Lar|";
+    }
+
+    39% {
+        content: "La|";
+    }
+
+    40% {
+        content: "L|";
+    }
+
+    41% {
+        content: "|";
+    }
+
+    42% {
+        content: "D|";
+    }
+
+    43% {
+        content: "De|";
+    }
+
+    44% {
+        content: "Dev|";
+    }
+
+    45% {
+        content: "Deve|";
+    }
+
+    46% {
+        content: "Devel|";
+    }
+
+    47% {
+        content: "Develo|";
+    }
+
+    48% {
+        content: "Develop|";
+    }
+
+    49% {
+        content: "Develope|";
+    }
+
+    50% {
+        content: "Developer|";
+    }
+
+    65% {
+        content: "Developer|";
+    }
+
+    66% {
+        content: "Develope|";
+    }
+
+    67% {
+        content: "Develop|";
+    }
+
+    68% {
+        content: "Develo|";
+    }
+
+    69% {
+        content: "Devel|";
+    }
+
+    70% {
+        content: "Deve|";
+    }
+
+    71% {
+        content: "Dev|";
+    }
+
+    72% {
+        content: "De|";
+    }
+
+    73% {
+        content: "D|";
+    }
+
+
+    74% {
+        content: "|";
+    }
+
+    75% {
+        content: "D|";
+    }
+
+    76% {
+        content: "De|";
+    }
+
+    77% {
+        content: "Des|";
+    }
+
+    78% {
+        content: "Desi|";
+    }
+
+    79% {
+        content: "Desig|";
+    }
+
+    80% {
+        content: "Design|";
+    }
+
+    81% {
+        content: "Designe|";
+    }
+
+    82% {
+        content: "Designer|";
+    }
+
+    93% {
+        content: "Designer|";
+    }
+
+    94% {
+        content: "Designe|";
+    }
+
+    95% {
+        content: "Design|";
+    }
+
+    96% {
+        content: "Desig|";
+    }
+
+    97% {
+        content: "Desi|";
+    }
+
+    98% {
+        content: "Des|";
+    }
+
+    99% {
+        content: "De|";
+    }
+
+    100% {
+        content: "D|";
+    }
+}
+
+.home-icon {
+    width: 33px;
+    height: 33px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* **************************about**************************** */
+
+.prsg {
+    width: 100%;
+    height: 25px;
+}
+
+.shadow-ps {
+    box-shadow: inset 0 0 10px #d3d1d1;
+}
+
+.prsg-child {
+    width: 90%;
+    height: 100%;
+}
+
+.prsg-child2 {
+    width: 80%;
+    height: 100%;
+}
+
+.prsg-child3 {
+    width: 95%;
+    height: 100%;
+}
+
+.btn-download {
+    color: #fff;
+}
+
+.btn-download:hover {
+    color: #1c1c1c;
+    background-color: #fff;
+    border: #000000 1px solid;
+}
+
+.btn-contact {
+    border: #1c1c1c 1px solid;
+
+}
+
+.btn-contact:hover {
+    background-color: #1c1c1c;
+    border: #1c1c1c 1px solid;
+    color: #fff;
+}
+
+
+
+/* **************************services**************************** */
+
+
+.services-ads {
+    font-size: 40px;
+
+}
+
+.card {
+    border: none;
+
+}
+
+.srvs-icon {
+    width: 70px;
+    height: 70px;
+    transition: .5s;
+}
+
+.card:hover .srvs-icon {
+    background-color: #1c1c1c !important;
+    color: #ddd9d9;
+}
+
+
+
+
+
+
+
+
+/* **************************portfolio**************************** */
+
+
+.portfolio-ads {
+    font-size: 40px;
+}
+
+.layer1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: #d3d1d1 5px solid;
+    opacity: 0;
+    transition: .5s;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+.nav-link {
+    border: none !important;
+}
+
+.down-lin {
+    width: 0%;
+    height: 2px;
+    background-color: #1c1c1c;
+    transition: .5s;
+}
+
+.nav-item:hover .down-lin {
+    width: 80%;
+}
+
+.nav-item:hover button {
+    color: #1c1c1c;
+}
+
+.works-item:hover .layer1 {
+    opacity: 1;
+}
+
+.lr-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.lr-icon i {
+    color: #d3d1d1;
+}
+
+
+
+
+
+
+
+
+/* **************************clients**************************** */
+
+
+.cients-ads {
+    font-size: 40px;
+}
+
+.slid {
+    height: 100vh;
+    color: #fff;
+}
+
+.crsl-pho {
+    width: 130px;
+    height: 130px;
+}
+
+.carousel-item p {
+    font-size: 18px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+}
+
+.crsl-p-s {
+    font-size: 12px !important;
+}
+
+
+
+
+
+
+/* ***************************blog*************************** */
+
+.blog-ads {
+    font-size: 40px;
+}
+
+.blog-sc-pho img {
+    transition: .5s;
+}
+
+.blog-sc-pho:hover img {
+    transform: scale(1.2);
+}
+
+
+.blog-d-lin {
+    width: 25%;
+    height: 2px;
+    background-color: #1c1c1c;
+}
+
+.carousel-indicators [data-bs-target]{
+  background-color: #d3d1d1 !important;
+  transform: translate(0px,80px);
+}
+
+
+
+
+
+
+/* ***************************contact*************************** */
+
+
+.contact-ads {
+    font-size: 40px;
+}
+
+
+.cont-icon {
+    width: 60px;
+    height: 60px;
+    transition: .5s;
+}
+
+.contact-item:hover .cont-icon {
+    background-color: #1c1c1c !important;
+    color: #d3d1d1 !important;
+}
+
+.cont-icon i {
+    font-size: 20px;
+    padding-top: 35%;
+}
+
+.contact-btn {
+    width: 140px;
+    margin-left: 10px;
+}
+
+.contact-btn:hover{
+    color: #1c1c1c !important;
+}
+
+.form-control{
+    box-shadow: none !important;
+    border: none !important;
+}
